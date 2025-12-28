@@ -159,3 +159,6 @@ It is a defensive foundation, not a replacement for game-specific logic or permi
 - Keep custom punishments lightweight and non-blocking
 
 # Misc...
+[![License: ](https://img.shields.io/badge/License%3A-MIT-green?style=plastic)](https://github.com/not-mentally-stable/RemoteSafeConnection//blob/main/LICENSE)
+
+[![Scripting Language: LUAU](https://img.shields.io/badge/Scripting%20Language%3A-LUAU-blue?style=plastic)](https://github.com/luau-lang/luau)
