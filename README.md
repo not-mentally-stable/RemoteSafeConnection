@@ -151,7 +151,7 @@ SafeConnection is designed to:
 - Provide a consistent security layer for remotes
 
 please note it is a defensive foundation, not a replacement for game-specific logic or permission checks.
-***we WON'T guarantee protection for your game!***
+***we WON'T guarantee 100% protection for your game!***
 
 ## Best Practices
 
