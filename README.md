@@ -133,6 +133,10 @@ SafeConnect({
 	print("Remote passed validation")
 end)
 ```
+> [!NOTE]
+> SafeConnect returns the Remote RbxScriptConnection
+> 
+> another note that the module uses the metatable method ``__call`` so the required module can execute like a function ``require(module)(code)`` instead of what others module do ``require(module).func(code)``
 
 ---
 
