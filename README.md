@@ -150,10 +150,8 @@ SafeConnection is designed to:
 - Encourage explicit validation
 - Provide a consistent security layer for remotes
 
-It is a defensive foundation, not a replacement for game-specific logic or permission checks.
-
-> but.. quick reminder it still not a good idea to relay on this module heavily, we still recommend adding extra security
-> this module WON'T 100% guarantee protection against exploits toward remotes
+please note it is a defensive foundation, not a replacement for game-specific logic or permission checks.
+***we WON'T guarantee protection for your game!***
 
 ## Best Practices
 
