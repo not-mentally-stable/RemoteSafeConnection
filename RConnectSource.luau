@@ -10,10 +10,9 @@ local taskspawn = task.spawn
 local clock = time
 local pack = table.pack
 local unpackv = table.unpack
-local huge = math.huge
 local max = math.max
--- local isnan = math.isnan
--- local isinfinite = math.isinfinite
+local isnan = math.isnan
+local isinf = math.isinf
 
 --// build-in security Config you shouldn't really tamper unless you know what your doing
 local maxTableDepth = 64
@@ -43,9 +42,8 @@ local function warnAllowedTypesOnce()
 	warnedAllowedTypes = true
 end
 
---// pending fix... waiting for Roblox to add RFC math.isnan & math.isinf to math libary
 local function isInvalidNumber(n)
-	return n ~= n or n == huge or n == -huge
+	return isnan(n) or isinf(n)
 end
 
 local function isAllowedType(value, allowed, useTypeof)
